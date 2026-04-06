@@ -1,0 +1,29 @@
+{
+  "name": "claude-video-remotion",
+  "version": "1.0.0",
+  "description": "Trying video creation via Remotion",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio src/index.ts",
+    "build": "npx remotion render src/index.ts MyComposition out/video.mp4",
+    "render": "npx remotion render src/index.ts MyComposition out/video.mp4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:33221/git/Malergh-M/Claude-Video-Remotion"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "4.0.446",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.446"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.2"
+  }
+}
