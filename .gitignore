@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore rendered output but not imported videos in src/
+out
